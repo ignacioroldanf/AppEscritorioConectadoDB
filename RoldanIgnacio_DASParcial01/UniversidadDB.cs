@@ -11,8 +11,8 @@ namespace RoldanIgnacio_DASParcial01
 {
     public class UniversidadDB
     {
-        //private string connectionString = "Data Source=localhost;Initial Catalog=Universidad;Integrated Security=true;";
-        private string connectionString = "Data Source=LegionNachi\\MSSQLSERVER01;Initial Catalog=Universidad;Integrated Security=true;";
+        private string connectionString = "Data Source=localhost;Initial Catalog=Universidad;Integrated Security=true;";
+        //private string connectionString = "Data Source=LegionNachi\\MSSQLSERVER01;Initial Catalog=Universidad;Integrated Security=true;";
 
 
         public List<Alumnos> Get()
